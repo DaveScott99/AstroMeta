@@ -13,17 +13,19 @@ html {
   background-color: #000;
 }
 
-header {
-  height: 220px;
-  background: linear-gradient(180deg, #102347 0%, #000000 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 a,
 a:hover,
 a:visited {
   text-decoration: none;
   color: unset;
+}
+
+.astrometa-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#astrometa-sales {
+  padding: 40px 10px;
 }

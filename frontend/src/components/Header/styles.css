@@ -1,0 +1,27 @@
+header {
+  height: 220px;
+  background: linear-gradient(180deg, #102347 0%, #000000 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.astrometa-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.astrometa-logo-container img {
+  width: 235px;
+}
+
+.astrometa-logo-container h1 {
+  margin-top: 15px;
+  font-size: 24px;
+}
+
+.astrometa-logo-container p {
+  font-weight: 300;
+  font-size: 14px;
+}
