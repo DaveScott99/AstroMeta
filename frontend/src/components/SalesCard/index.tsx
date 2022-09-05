@@ -1,5 +1,7 @@
-import NotificationButton from '../NotificationButton';
-import './styles.css'
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import NotificationButton from "../NotificationButton";
+import "./styles.css";
 
 function SalesCard() {
   return (
@@ -8,17 +10,19 @@ function SalesCard() {
         <h2 className="astrometa-sales-title">Vendas</h2>
         <div>
           <div className="astrometa-form-control-container">
-            <input
+            <DatePicker
+              selected={new Date()}
+              onChange={(date: Date) => {}}
               className="astrometa-form-control"
-              type="text"
-              placeholder="01/08/2022"
+              dateFormat="dd/MM/yyyy"
             />
           </div>
           <div className="astrometa-form-control-container">
-            <input
+            <DatePicker
+              selected={new Date()}
+              onChange={(date: Date) => {}}
               className="astrometa-form-control"
-              type="text"
-              placeholder="31/12/2022"
+              dateFormat="dd/MM/yyyy"
             />
           </div>
         </div>
@@ -48,22 +52,7 @@ function SalesCard() {
                 <td>
                   <div className="astrometa-red-btn-container">
                     <div className="astrometa-red-btn">
-                        <NotificationButton />
-                    </div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td className="show992">#268</td>
-                <td className="show576">25/08/2022</td>
-                <td>Anakin</td>
-                <td className="show992">20</td>
-                <td className="show992">14</td>
-                <td>R$ 55300.00</td>
-                <td>
-                  <div className="astrometa-red-btn-container">
-                    <div className="astrometa-red-btn">
-                        <NotificationButton />
+                      <NotificationButton />
                     </div>
                   </div>
                 </td>
@@ -93,7 +82,7 @@ function SalesCard() {
                 <td>
                   <div className="astrometa-red-btn-container">
                     <div className="astrometa-red-btn">
-                        <NotificationButton />
+                      <NotificationButton />
                     </div>
                   </div>
                 </td>
@@ -108,7 +97,7 @@ function SalesCard() {
                 <td>
                   <div className="astrometa-red-btn-container">
                     <div className="astrometa-red-btn">
-                        <NotificationButton />
+                      <NotificationButton />
                     </div>
                   </div>
                 </td>
@@ -123,7 +112,22 @@ function SalesCard() {
                 <td>
                   <div className="astrometa-red-btn-container">
                     <div className="astrometa-red-btn">
-                        <NotificationButton />
+                      <NotificationButton />
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td className="show992">#268</td>
+                <td className="show576">25/08/2022</td>
+                <td>Anakin</td>
+                <td className="show992">20</td>
+                <td className="show992">14</td>
+                <td>R$ 55300.00</td>
+                <td>
+                  <div className="astrometa-red-btn-container">
+                    <div className="astrometa-red-btn">
+                      <NotificationButton />
                     </div>
                   </div>
                 </td>
