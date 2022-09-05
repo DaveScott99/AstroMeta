@@ -141,33 +141,33 @@ a:visited {
 }
 
 .show576 {
-    display: none;
+  display: none;
 }
 
-.show992{
-    display: none;
+.show992 {
+  display: none;
 }
 
-@media (min-width: 576px){
-    .show576 {
-        display: table-cell;
-    }
+@media (min-width: 576px) {
+  .show576 {
+    display: table-cell;
+  }
 
-    .astrometa-card {  
-        padding: 35px;
-    }
+  .astrometa-card {
+    padding: 35px;
+  }
 
-    .astrometa-sales-table tbody tr {
-        height: 62px;
-    }
+  .astrometa-sales-table tbody tr {
+    height: 62px;
+  }
 
-    .astrometa-sales-table tbody {
-        font-size: 18px;
-    }
+  .astrometa-sales-table tbody {
+    font-size: 18px;
+  }
 }
 
-@media (min-width: 992px){
-    .show992 {
-        display: table-cell;
-    }
+@media (min-width: 992px) {
+  .show992 {
+    display: table-cell;
+  }
 }
