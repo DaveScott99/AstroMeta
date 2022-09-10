@@ -14,7 +14,7 @@ function SalesCard() {
 
   useEffect(() => {
     axios.get("http://localhost:8080/sales").then(response => {
-      console.log(response.data);
+      console.log(response.data)
     })
   }, []);
 
