@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-Link projeto -> https://astrometa.netlify.app
+**Link do projeto ->** https://astrometa.netlify.app
 
 AstroMeta é uma aplicação full stack web construída durante a Semana Spring Reack, evento organizado pela DevSuperior.
 
