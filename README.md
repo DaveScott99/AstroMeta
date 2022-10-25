@@ -26,7 +26,6 @@ Um projeto para gerar relatórios de vendas com base em datas disponibilizadas p
 
 - HTML5 / CSS3 / JS/ TypeScipt
 - React JS
-- Expo
 
 ### Implementação em produção
 
